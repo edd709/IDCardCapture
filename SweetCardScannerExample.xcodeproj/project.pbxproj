@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D44C5B12876BC3400CBCE3D /* Reg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44C5B02876BC3400CBCE3D /* Reg.swift */; };
+		6D44C5B52876BDA400CBCE3D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44C5B42876BDA400CBCE3D /* CameraView.swift */; };
+		6D44C5B72876BDE000CBCE3D /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44C5B62876BDE000CBCE3D /* CreditCard.swift */; };
+		6D44C5B92876BE0E00CBCE3D /* CreditCardScannerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44C5B82876BE0E00CBCE3D /* CreditCardScannerError.swift */; };
+		6D44C5BB2876BE4B00CBCE3D /* CreditCardScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44C5BA2876BE4B00CBCE3D /* CreditCardScannerViewController.swift */; };
+		6D44C5BD2876BE7300CBCE3D /* CreditCardUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44C5BC2876BE7300CBCE3D /* CreditCardUtils.swift */; };
+		6D44C5BF2876BEA300CBCE3D /* ImageAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44C5BE2876BEA300CBCE3D /* ImageAnalyzer.swift */; };
+		6D44C5C12876BED900CBCE3D /* ImageRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44C5C02876BED900CBCE3D /* ImageRatio.swift */; };
+		6D44C5C32876BF0900CBCE3D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44C5C22876BF0900CBCE3D /* String+Extensions.swift */; };
+		6D44C5C52876BF2B00CBCE3D /* SweetCardScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D44C5C42876BF2B00CBCE3D /* SweetCardScanner.swift */; };
+		6DA2A5F82875DFC600B26304 /* SweetCardScannerExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2A5F72875DFC600B26304 /* SweetCardScannerExampleApp.swift */; };
+		6DA2A5FA2875DFC600B26304 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2A5F92875DFC600B26304 /* ContentView.swift */; };
+		6DA2A5FC2875DFC700B26304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2A5FB2875DFC700B26304 /* Assets.xcassets */; };
+		6DA2A5FF2875DFC700B26304 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2A5FE2875DFC700B26304 /* Preview Assets.xcassets */; };
+		6DA2A6092875E08200B26304 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2A6082875E08200B26304 /* ResultView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D44C5AF2876BC0500CBCE3D /* Reg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reg.h; sourceTree = "<group>"; };
+		6D44C5B02876BC3400CBCE3D /* Reg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reg.swift; sourceTree = "<group>"; };
+		6D44C5B42876BDA400CBCE3D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		6D44C5B62876BDE000CBCE3D /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		6D44C5B82876BE0E00CBCE3D /* CreditCardScannerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardScannerError.swift; sourceTree = "<group>"; };
+		6D44C5BA2876BE4B00CBCE3D /* CreditCardScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardScannerViewController.swift; sourceTree = "<group>"; };
+		6D44C5BC2876BE7300CBCE3D /* CreditCardUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardUtils.swift; sourceTree = "<group>"; };
+		6D44C5BE2876BEA300CBCE3D /* ImageAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalyzer.swift; sourceTree = "<group>"; };
+		6D44C5C02876BED900CBCE3D /* ImageRatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRatio.swift; sourceTree = "<group>"; };
+		6D44C5C22876BF0900CBCE3D /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		6D44C5C42876BF2B00CBCE3D /* SweetCardScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetCardScanner.swift; sourceTree = "<group>"; };
+		6DA2A5F42875DFC600B26304 /* SweetCardScannerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetCardScannerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA2A5F72875DFC600B26304 /* SweetCardScannerExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetCardScannerExampleApp.swift; sourceTree = "<group>"; };
+		6DA2A5F92875DFC600B26304 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6DA2A5FB2875DFC700B26304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DA2A5FE2875DFC700B26304 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DA2A6082875E08200B26304 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DA2A5F12875DFC600B26304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D44C5AE2876BBA600CBCE3D /* Reg */ = {
+			isa = PBXGroup;
+			children = (
+				6D44C5AF2876BC0500CBCE3D /* Reg.h */,
+				6D44C5B02876BC3400CBCE3D /* Reg.swift */,
+			);
+			path = Reg;
+			sourceTree = "<group>";
+		};
+		6D44C5B22876BD5100CBCE3D /* SweetCardScanner */ = {
+			isa = PBXGroup;
+			children = (
+				6D44C5B32876BD7400CBCE3D /* CreditCardScanner */,
+				6D44C5C42876BF2B00CBCE3D /* SweetCardScanner.swift */,
+			);
+			path = SweetCardScanner;
+			sourceTree = "<group>";
+		};
+		6D44C5B32876BD7400CBCE3D /* CreditCardScanner */ = {
+			isa = PBXGroup;
+			children = (
+				6D44C5B42876BDA400CBCE3D /* CameraView.swift */,
+				6D44C5B62876BDE000CBCE3D /* CreditCard.swift */,
+				6D44C5B82876BE0E00CBCE3D /* CreditCardScannerError.swift */,
+				6D44C5BA2876BE4B00CBCE3D /* CreditCardScannerViewController.swift */,
+				6D44C5BC2876BE7300CBCE3D /* CreditCardUtils.swift */,
+				6D44C5BE2876BEA300CBCE3D /* ImageAnalyzer.swift */,
+				6D44C5C02876BED900CBCE3D /* ImageRatio.swift */,
+				6D44C5C22876BF0900CBCE3D /* String+Extensions.swift */,
+			);
+			path = CreditCardScanner;
+			sourceTree = "<group>";
+		};
+		6DA2A5EB2875DFC600B26304 = {
+			isa = PBXGroup;
+			children = (
+				6DA2A5F62875DFC600B26304 /* SweetCardScannerExample */,
+				6DA2A5F52875DFC600B26304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DA2A5F52875DFC600B26304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2A5F42875DFC600B26304 /* SweetCardScannerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DA2A5F62875DFC600B26304 /* SweetCardScannerExample */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2A5F72875DFC600B26304 /* SweetCardScannerExampleApp.swift */,
+				6DA2A5F92875DFC600B26304 /* ContentView.swift */,
+				6DA2A6082875E08200B26304 /* ResultView.swift */,
+				6DA2A5FB2875DFC700B26304 /* Assets.xcassets */,
+				6D44C5AE2876BBA600CBCE3D /* Reg */,
+				6D44C5B22876BD5100CBCE3D /* SweetCardScanner */,
+				6DA2A5FD2875DFC700B26304 /* Preview Content */,
+			);
+			path = SweetCardScannerExample;
+			sourceTree = "<group>";
+		};
+		6DA2A5FD2875DFC700B26304 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2A5FE2875DFC700B26304 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DA2A5F32875DFC600B26304 /* SweetCardScannerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA2A6022875DFC700B26304 /* Build configuration list for PBXNativeTarget "SweetCardScannerExample" */;
+			buildPhases = (
+				6DA2A5F02875DFC600B26304 /* Sources */,
+				6DA2A5F12875DFC600B26304 /* Frameworks */,
+				6DA2A5F22875DFC600B26304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetCardScannerExample;
+			packageProductDependencies = (
+			);
+			productName = SweetCardScannerExample;
+			productReference = 6DA2A5F42875DFC600B26304 /* SweetCardScannerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DA2A5EC2875DFC600B26304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6DA2A5F32875DFC600B26304 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6DA2A5EF2875DFC600B26304 /* Build configuration list for PBXProject "SweetCardScannerExample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DA2A5EB2875DFC600B26304;
+			packageReferences = (
+			);
+			productRefGroup = 6DA2A5F52875DFC600B26304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DA2A5F32875DFC600B26304 /* SweetCardScannerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DA2A5F22875DFC600B26304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA2A5FF2875DFC700B26304 /* Preview Assets.xcassets in Resources */,
+				6DA2A5FC2875DFC700B26304 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DA2A5F02875DFC600B26304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D44C5C12876BED900CBCE3D /* ImageRatio.swift in Sources */,
+				6D44C5B72876BDE000CBCE3D /* CreditCard.swift in Sources */,
+				6DA2A5FA2875DFC600B26304 /* ContentView.swift in Sources */,
+				6DA2A5F82875DFC600B26304 /* SweetCardScannerExampleApp.swift in Sources */,
+				6D44C5C32876BF0900CBCE3D /* String+Extensions.swift in Sources */,
+				6D44C5C52876BF2B00CBCE3D /* SweetCardScanner.swift in Sources */,
+				6D44C5BF2876BEA300CBCE3D /* ImageAnalyzer.swift in Sources */,
+				6D44C5B12876BC3400CBCE3D /* Reg.swift in Sources */,
+				6D44C5BD2876BE7300CBCE3D /* CreditCardUtils.swift in Sources */,
+				6D44C5B92876BE0E00CBCE3D /* CreditCardScannerError.swift in Sources */,
+				6D44C5B52876BDA400CBCE3D /* CameraView.swift in Sources */,
+				6D44C5BB2876BE4B00CBCE3D /* CreditCardScannerViewController.swift in Sources */,
+				6DA2A6092875E08200B26304 /* ResultView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6DA2A6002875DFC700B26304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DA2A6012875DFC700B26304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DA2A6032875DFC700B26304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SweetCardScannerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = T6A5B68A7V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Necesito utilizar la cámara";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eriodanieldiaz.SweetCardScannerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DA2A6042875DFC700B26304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SweetCardScannerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = T6A5B68A7V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Necesito utilizar la cámara";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eriodanieldiaz.SweetCardScannerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DA2A5EF2875DFC600B26304 /* Build configuration list for PBXProject "SweetCardScannerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA2A6002875DFC700B26304 /* Debug */,
+				6DA2A6012875DFC700B26304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA2A6022875DFC700B26304 /* Build configuration list for PBXNativeTarget "SweetCardScannerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA2A6032875DFC700B26304 /* Debug */,
+				6DA2A6042875DFC700B26304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DA2A5EC2875DFC600B26304 /* Project object */;
+}
